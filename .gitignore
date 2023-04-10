@@ -1,6 +1,6 @@
 # IDE and editor files
 .idea
-.vscode
+*.vscode
 /bin
 /kubebuilder
 
@@ -16,6 +16,8 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+*.o
+*.ll
 
 # Dependency directories (remove the comment below to include it)
 vendor/
